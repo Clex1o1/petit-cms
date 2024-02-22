@@ -9,10 +9,23 @@
   },
   "devDependencies": {
     "@nuxt/content": "^2.4.3",
+    "@nuxtjs/tailwindcss": "^6.4.1",
     "@sidebase/nuxt-auth": "^0.4.1",
+    "@types/uuid": "^9.0.1",
+    "@vueuse/components": "^9.13.0",
+    "@vueuse/core": "^9.13.0",
+    "@vueuse/nuxt": "^9.13.0",
     "nuxt": "^3.2.2"
   },
   "dependencies": {
-    "@formkit/nuxt": "^1.0.0-beta.15"
-  }
+    "@formkit/nuxt": "^1.0.0-beta.15",
+    "@tiptap/pm": "^2.0.0-beta.218",
+    "@tiptap/starter-kit": "^2.0.0-beta.218",
+    "@tiptap/vue-3": "^2.0.0-beta.218",
+    "uuid": "^9.0.0",
+    "vuedraggable": "^4.1.0"
+  },
+  "workspaces": [
+    "orm"
+  ]
 }

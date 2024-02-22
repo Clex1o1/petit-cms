@@ -1,42 +1,9 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Based CMS
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Idea
 
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Define Props on components and use them to generate JSON schemas and types.
+These comeponents are special "cms" components with a directive that tells the compiler to generate the schema and types.
+The date will be stored with an orm or datalayer in files by default using nitro storage.
+To archive this we need to create a custom compiler that generates the schema and types.
+Also we need an abstract class that can be extended to implement the storage layer API.

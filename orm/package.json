@@ -1,0 +1,16 @@
+{
+  "name": "@westwerk/orm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mikro-orm/core": "^5.7.4",
+    "unstorage": "^1.6.0"
+  }
+}

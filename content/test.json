@@ -1,0 +1,7 @@
+{
+  "properties": {
+    "name": "test Component",
+    "description": "This is a test component"
+  },
+  "component": "test-component"
+}
